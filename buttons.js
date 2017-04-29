@@ -7,7 +7,7 @@
         for (var r in e)C.call(e, r) && (t[r] = e[r]);
         return n.prototype = e.prototype, t.prototype = new n, t.__super__ = e.prototype, t
     }, C = {}.hasOwnProperty;
-    b = this, y = b.document, o = "https://api.github.com", r = "github-button", i = "octicon", a = i + "-mark-github", c = !{}.hasOwnProperty.call(y, "currentScript") && delete y.currentScript && y.currentScript ? y.currentScript.src.replace(/[^\/]*([?#].*)?$/, "") : (/^http:/.test(y.location) ? "http" : "https") + "://button.zhangjikai.com/", l = "faa75404-3b97-5585-b449-4bc51338fbd1", g = function () {
+    b = this, y = b.document, o = "https://api.github.com", r = "github-button", i = "octicon", a = i + "-mark-github", c = !{}.hasOwnProperty.call(y, "currentScript") && delete y.currentScript && y.currentScript ? y.currentScript.src.replace(/[^\/]*([?#].*)?$/, "") : (/^http:/.test(y.location) ? "http" : "https") + "://buttons.github.io/", l = "faa75404-3b97-5585-b449-4bc51338fbd1", g = function () {
         function t() {
         }
 
